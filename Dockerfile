@@ -2,6 +2,8 @@ FROM centos:6.9
 
 RUN yum update -y
 
+RUN yum install -y openssh-clients
+
 RUN curl -sL https://rpm.nodesource.com/setup_8.x | bash -
 
 RUN yum install -y nodejs
