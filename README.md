@@ -3,8 +3,8 @@
 https://hub.docker.com/r/gabiacloud/node
 
 - CentOs 6.9
-- Node.js 8.9.4
-- NPM 6.7.0
+- Node.js 10.13.0
+- NPM 6.13.0
 - pm2 2.5.0
 
 ## Image
