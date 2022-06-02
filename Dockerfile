@@ -6,6 +6,8 @@ RUN yum install -y openssh-clients libaio wget unzip openssl
 
 RUN yum install -y epel-release
 
+RUN yum install -y jq
+
 RUN yum install -y nodejs
 
 RUN npm install -g n
