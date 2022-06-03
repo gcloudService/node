@@ -14,8 +14,6 @@ RUN n 12.18.0
 
 RUN ln -sf /usr/local/n/versions/node/12.18.0/bin/node /usr/bin/node
 
-RUN npm install -g npm@6.14.6
-
 RUN npm install -g pm2@3.4.0
 
 RUN mkdir -p /opt/oracle
